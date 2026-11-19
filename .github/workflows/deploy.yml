@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -24,8 +24,47 @@ jobs:
           enablement: true
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm install --no-audit --no-fund
+          node-version: 22
+      - name: Install dependencies
+        run: |
+          echo "node $(node -v) / npm $(npm -v)"
+          set +e
+          npm install --no-audit --no-fund
+          code=$?
+          echo "first install exit: $code"
+          if [ $code -ne 0 ]; then
+            echo "retrying install"
+            sleep 5
+            npm install --no-audit --no-fund
+            code=$?
+            echo "second install exit: $code"
+          fi
+          if [ $code -ne 0 ]; then
+            echo "retrying with --legacy-peer-deps"
+            npm install --no-audit --no-fund --legacy-peer-deps
+            code=$?
+            echo "third install exit: $code"
+          fi
+          if [ $code -ne 0 ]; then
+            L=$(ls -t /home/runner/.npm/_logs/*.log 2>/dev/null | head -1)
+            if [ -n "$L" ]; then
+              tail -c 60000 "$L" > npm-debug-tail.log
+            else
+              echo "no npm debug log found" > npm-debug-tail.log
+            fi
+            exit 1
+          fi
+      - name: Save npm debug log to repo
+        if: failure()
+        run: |
+          if [ -f npm-debug-tail.log ]; then
+            B64=$(base64 -w0 npm-debug-tail.log)
+            curl -s -X PUT \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/${{ github.repository }}/contents/.ci-debug.log \
+              -d "{\"message\":\"ci debug log\",\"content\":\"$B64\"}"
+          fi
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /gnuts

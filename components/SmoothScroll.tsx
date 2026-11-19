@@ -1,1 +1,35 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgTGVuaXMgZnJvbSAibGVuaXMiOwppbXBvcnQgZ3NhcCBmcm9tICJnc2FwIjsKaW1wb3J0IHsgU2Nyb2xsVHJpZ2dlciB9IGZyb20gImdzYXAvU2Nyb2xsVHJpZ2dlciI7Cgpnc2FwLnJlZ2lzdGVyUGx1Z2luKFNjcm9sbFRyaWdnZXIpOwoKZXhwb3J0IGZ1bmN0aW9uIHByZWZlcnNSZWR1Y2VkTW90aW9uKCkgewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIGZhbHNlOwogIHJldHVybiB3aW5kb3cubWF0Y2hNZWRpYSgiKHByZWZlcnMtcmVkdWNlZC1tb3Rpb246IHJlZHVjZSkiKS5tYXRjaGVzOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTbW9vdGhTY3JvbGwoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAocHJlZmVyc1JlZHVjZWRNb3Rpb24oKSkgcmV0dXJuOyAvLyBuYXRpdmUgc2Nyb2xsLCBubyBzY3J1Yiwgc3RhdGljIHBhZ2UKCiAgICBjb25zdCBsZW5pcyA9IG5ldyBMZW5pcyh7IGxlcnA6IDAuMSB9KTsKICAgIGxlbmlzLm9uKCJzY3JvbGwiLCBTY3JvbGxUcmlnZ2VyLnVwZGF0ZSk7CgogICAgY29uc3QgcmFmID0gKHRpbWU6IG51bWJlcikgPT4gewogICAgICBsZW5pcy5yYWYodGltZSAqIDEwMDApOwogICAgfTsKICAgIGdzYXAudGlja2VyLmFkZChyYWYpOwogICAgZ3NhcC50aWNrZXIubGFnU21vb3RoaW5nKDApOwoKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGdzYXAudGlja2VyLnJlbW92ZShyYWYpOwogICAgICBsZW5pcy5kZXN0cm95KCk7CiAgICB9OwogIH0sIFtdKTsKCiAgcmV0dXJuIDw+e2NoaWxkcmVufTwvPjsKfQo=
+"use client";
+
+import { useEffect } from "react";
+import Lenis from "lenis";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+export function prefersReducedMotion() {
+  if (typeof window === "undefined") return false;
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+export default function SmoothScroll({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    if (prefersReducedMotion()) return; // native scroll, no scrub, static page
+
+    const lenis = new Lenis({ lerp: 0.1 });
+    lenis.on("scroll", ScrollTrigger.update);
+
+    const raf = (time: number) => {
+      lenis.raf(time * 1000);
+    };
+    gsap.ticker.add(raf);
+    gsap.ticker.lagSmoothing(0);
+
+    return () => {
+      gsap.ticker.remove(raf);
+      lenis.destroy();
+    };
+  }, []);
+
+  return <>{children}</>;
+}

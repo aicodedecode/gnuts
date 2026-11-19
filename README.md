@@ -1,1 +1,55 @@
-IyBHbnV0cywgZmFybS10by1qYXIgaW1tZXJzaXZlIHNpdGUKCk9uZS1wYWdlLCBzY3JvbGwtZHJpdmVuIHNpdGUgZm9yIEdudXRzLCBhIGdyb3VuZG51dCBhbmQgcGVhbnV0IGJ1dHRlciBwcm9kdWNlciBpbiBNZWVydXQsIFV0dGFyIFByYWRlc2guIEJ1aWx0IGZvciBCMkIgYnV5ZXJzOiBkaXN0cmlidXRvcnMsIHJldGFpbGVycywgZXhwb3J0IGltcG9ydGVycy4gRWlnaHQgZnVsbC1zY3JlZW4gc3RhZ2VzLCBmYXJtIHRvIHBhY2thZ2VkIGphciwgZW5kaW5nIG9uIGEgcXVvdGUgcmVxdWVzdCBmb3JtLgoKU3RhY2s6IE5leHQuanMgMTUsIFJlYWN0IFRocmVlIEZpYmVyLCBHU0FQIFNjcm9sbFRyaWdnZXIsIExlbmlzLiBUeXBlU2NyaXB0LgoKIyMgTWVkaWEgbWFuaWZlc3QKCkRyb3AgcmVhbCBmb290YWdlIGluIGBwdWJsaWMvbWVkaWEvYCBiZWZvcmUgbGF1bmNoLiBOb3RoaW5nIGlzIGlsbHVzdHJhdGVkLgoKfCBGaWxlIHwgQ29udGVudCB8CnwtLS18LS0tfAp8IGAwMS1zb3VyY2luZy5tcDRgIHwgZmFybXMgYXJvdW5kIE1lZXJ1dCwgc3RhbmRpbmcgY3JvcCwgZmFybWVyIHdpdGggcG9kcyB8CnwgYDAyLWhhcnZlc3QubXA0YCB8IHBvZHMgbGlmdGVkLCBmaWVsZCBkcnlpbmcsIG1vaXN0dXJlIG1ldGVyIGNsb3NlLXVwICh0aGUgdHJ1c3Qgc2hvdCkgfAp8IGAwMy1zaGVsbGluZy5tcDRgIHwgc2hlbGxlcnMgc3BsaXR0aW5nIHBvZHMsIGtlcm5lbHMgb24gdGhlIGdyYWRlciB8CnwgYDA0LXJvYXN0aW5nLm1wNGAgfCBkcnVtIHJvYXN0ZXIgcnVubmluZywgc2tpbnMgYmxvd2luZyBvZmYgfAp8IGAwNS1ncmluZGluZy5tcDRgIHwgcGFzdGUgZmxvd2luZyBmcm9tIHRoZSBtaWxsLCBjcmVhbXkgYW5kIGNydW5jaHkgc2hvdHMgfAp8IGAwNi1wYWNraW5nLm1wNGAgfCBqYXIgZmlsbGluZywgc2VhbGluZywgbGFiZWxsaW5nLCBib3hpbmcgfAp8IGAwNy1kaXNwYXRjaC5tcDRgIHwgcGFsbGV0cyBsb2FkZWQsIHRydWNrIGxlYXZpbmcgfAp8IGAwOC1maW5pc2gubXA0YCB8IGphciBvbiBhIHRhYmxlLCBzbG93IG9yYml0IHwKfCBgMFgtKi1wb3N0ZXIuanBnYCB8IGZpcnN0IGZyYW1lIG9mIGVhY2ggY2xpcCB8CnwgYGdudXRzLWphci5nbGJgIHwgdGhlIHByb2R1Y3QgamFyIGFzIGEgR0xCLCB1bmRlciA1IE1CIHwKCk9uZSB3YXJtIG5hdHVyYWwgZ3JhZGUgYWNyb3NzIGV2ZXJ5dGhpbmcuIENsaXBzIDYgdG8gMTIgc2Vjb25kcywgMTA4MHAsIEguMjY0LCB1bmRlciAzIE1CIGVhY2guCgojIyBNZWNoYW5pY3MKCi0gYGxpYi9zdGFnZXMudHNgIGhvbGRzIGFsbCBlaWdodCBzdGFnZXM6IGNvcHksIGJhY2tncm91bmQgY29sb3VyLCB2aWRlbyBwYXRoLiBFZGl0IGNvcHkgYW5kIGNvbG91cnMgdGhlcmUuCi0gYGNvbXBvbmVudHMvU3RhZ2VWaWRlby50c3hgIGxhenktbG9hZHMgZWFjaCBjbGlwIG5lYXIgdGhlIHZpZXdwb3J0IGFuZCBzY3J1YnMgYGN1cnJlbnRUaW1lYCBmcm9tIHNjcm9sbCBwb3NpdGlvbiwgc28gY2xpcHMgcGxheSBmb3J3YXJkIGFuZCBiYWNrd2FyZCB1bmRlciB0aGUgdGh1bWIuIE5vIGF1dG9wbGF5LCBubyBzb3VuZC4KLSBgY29tcG9uZW50cy9TaGVsbE1vbWVudC50c3hgIGlzIHRoZSBtZW1vcmFibGUgbW9tZW50OiBhIHBpbm5lZCAzRCBwZWFudXQgc2hlbGwgdGhhdCBzcGxpdHMgb3BlbiBhdCB0aGUgc2hlbGxpbmcgc3RhZ2UsIGtlcm5lbHMgaW5zaWRlLiBTY3JvbGwgZHJpdmVzIHRoZSBzcGxpdC4KLSBgY29tcG9uZW50cy9KYXJTY2VuZS50c3hgIHJlbmRlcnMgYSBwbGFjZWhvbGRlciBqYXIgZnJvbSBwcmltaXRpdmVzLiBTd2FwIGluIHRoZSByZWFsIGFzc2V0OiBkcm9wIGBnbnV0cy1qYXIuZ2xiYCAoY29tcHJlc3NlZCwgYGdsdGYtdHJhbnNmb3JtIG9wdGltaXplIC0tY29tcHJlc3MgZHJhY29gKSBpbnRvIGBwdWJsaWMvbWVkaWFgLCByZXBsYWNlIHRoZSBtZXNoZXMgd2l0aCBkcmVpJ3MgYHVzZUdMVEYoIi9tZWRpYS9nbnV0cy1qYXIuZ2xiIilgIGluIGEgYDxTdXNwZW5zZT5gLgotIEJhY2tncm91bmQgY29sb3VyIHNoaWZ0cyBwZXIgc3RhZ2UuIFR5cGU6IEFudG9uIGZvciBzdGFnZSBuYW1lcywgSW50ZXIgZm9yIGJvZHkuCi0gYGFwcC9hcGkvcXVvdGUvcm91dGUudHNgIHJlY2VpdmVzIHRoZSBxdW90ZSBmb3JtOyB3aXJlIGl0IHRvIHRoZSBzYWxlcyBtYWlsYm94IG9yIGEgQ1JNIGJlZm9yZSBsYXVuY2guCgojIyBQZXJmb3JtYW5jZSBhbmQgYWNjZXNzaWJpbGl0eQoKLSBDbGlwcyBsb2FkIG9ubHkgd2hlbiBuZWVkZWQgYW5kIG5ldmVyIGF1dG9wbGF5OyB1c2FibGUgb24gbWlkLXJhbmdlIHBob25lcy4KLSBgcHJlZmVycy1yZWR1Y2VkLW1vdGlvbmA6IExlbmlzLCBzY3J1YmJpbmcgYW5kIHJldmVhbHMgc3dpdGNoIG9mZjsgcG9zdGVyIGZyYW1lcyBhbmQgc3RhdGljIGNvcHkgc2hvdy4KLSBSZWFsIEhUTUwgdGV4dCB1bmRlciBldmVyeSB2aWRlbywgbm9zY3JpcHQgc3VtbWFyeSBpbmNsdWRlZCwgc28gdGhlIHBhZ2UgcmVhZHMgd2l0aCBKYXZhU2NyaXB0IG9mZi4KLSBDYW52YXMgc2NlbmVzIGNhcCBEUFIgYXQgMS42IGFuZCBtb3VudCBvbmx5IG9uIHRoZSB0d28gc3RhZ2VzIHRoYXQgbmVlZCB0aGVtLgoKIyMgUnVuCgpgYGBiYXNoCm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2CmBgYAoKIyMgQmVmb3JlIGxhdW5jaAoKLSBDb25maXJtIHJlZ2lvbiwgdmFyaWV0eSBhbmQgZXZlcnkgYFticmFja2V0ZWRdYCBudW1iZXIgaW4gYGxpYi9zdGFnZXMudHNgCi0gUmVwbGFjZSBhbGwgZWlnaHQgY2xpcHMgYW5kIHBvc3RlcnMKLSBBZGQgdGhlIGphciBHTEIgb3Iga2VlcCB0aGUgcGxhY2Vob2xkZXIgamFyCi0gUG9pbnQgYC9hcGkvcXVvdGVgIGF0IGEgcmVhbCBtYWlsYm94Ci0gQWRkIEZTU0FJIGxpY2VuY2UgbnVtYmVyLCBBUEVEQSByZWdpc3RyYXRpb24gaWYgaGVsZCwgYW5kIGNvbXBhbnkgZGV0YWlscyB0byB0aGUgZmluaXNoIHN0YWdlCg==
+# Gnuts, farm-to-jar immersive site
+
+One-page, scroll-driven site for Gnuts, a groundnut and peanut butter producer in Meerut, Uttar Pradesh. Built for B2B buyers: distributors, retailers, export importers. Eight full-screen stages, farm to packaged jar, ending on a quote request form.
+
+Stack: Next.js 15, React Three Fiber, GSAP ScrollTrigger, Lenis. TypeScript.
+
+## Media manifest
+
+Drop real footage in `public/media/` before launch. Nothing is illustrated.
+
+| File | Content |
+|---|---|
+| `01-sourcing.mp4` | farms around Meerut, standing crop, farmer with pods |
+| `02-harvest.mp4` | pods lifted, field drying, moisture meter close-up (the trust shot) |
+| `03-shelling.mp4` | shellers splitting pods, kernels on the grader |
+| `04-roasting.mp4` | drum roaster running, skins blowing off |
+| `05-grinding.mp4` | paste flowing from the mill, creamy and crunchy shots |
+| `06-packing.mp4` | jar filling, sealing, labelling, boxing |
+| `07-dispatch.mp4` | pallets loaded, truck leaving |
+| `08-finish.mp4` | jar on a table, slow orbit |
+| `0X-*-poster.jpg` | first frame of each clip |
+| `gnuts-jar.glb` | the product jar as a GLB, under 5 MB |
+
+One warm natural grade across everything. Clips 6 to 12 seconds, 1080p, H.264, under 3 MB each.
+
+## Mechanics
+
+- `lib/stages.ts` holds all eight stages: copy, background colour, video path. Edit copy and colours there.
+- `components/StageVideo.tsx` lazy-loads each clip near the viewport and scrubs `currentTime` from scroll position, so clips play forward and backward under the thumb. No autoplay, no sound.
+- `components/ShellMoment.tsx` is the memorable moment: a pinned 3D peanut shell that splits open at the shelling stage, kernels inside. Scroll drives the split.
+- `components/JarScene.tsx` renders a placeholder jar from primitives. Swap in the real asset: drop `gnuts-jar.glb` (compressed, `gltf-transform optimize --compress draco`) into `public/media`, replace the meshes with drei's `useGLTF("media/gnuts-jar.glb")` in a `<Suspense>`.
+- `components/QuoteForm.tsx` is the quote form; it opens a pre-filled email to sales@gnuts.in. Swap in a real mailbox or CRM integration before launch if you want submissions captured server-side.
+- Background colour shifts per stage. Type: Anton for stage names, Inter for body.
+
+## Performance and accessibility
+
+- Clips load only when needed and never autoplay; usable on mid-range phones.
+- `prefers-reduced-motion`: Lenis, scrubbing and reveals switch off; poster frames and static copy show.
+- Real HTML text under every video, noscript summary included, so the page reads with JavaScript off.
+- Canvas scenes cap DPR at 1.6 and mount only on the two stages that need them.
+
+## Run
+
+```bash
+npm install
+npm run dev
+```
+
+## Before launch
+
+- Confirm region, variety and every `[bracketed]` number in `lib/stages.ts`
+- Replace all eight clips and posters
+- Add the jar GLB or keep the placeholder jar
+- Point the quote form at a real mailbox or CRM
+- Add FSSAI licence number, APEDA registration if held, and company details to the finish stage

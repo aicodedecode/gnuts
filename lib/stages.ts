@@ -9,6 +9,8 @@ export type Stage = {
   poster: string;
 };
 
+// Media: free-license stock footage and stills (Pexels license, no attribution
+// required). Swap with real Gnuts footage as it is shot.
 export const STAGES: Stage[] = [
   {
     id: "sourcing",
@@ -20,8 +22,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#3a4d2e",
     ink: "#f2f2f5",
-    media: "media/01-sourcing.mp4",
-    poster: "media/01-sourcing-poster.jpg",
+    media: "https://videos.pexels.com/video-files/31534240/13440768_1080_1920_30fps.mp4",
+    poster: "https://images.pexels.com/videos/31534240/agriculture-field-fall-farm-farming-31534240.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "harvest",
@@ -33,8 +35,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#7a6432",
     ink: "#f6f2e9",
-    media: "media/02-harvest.mp4",
-    poster: "media/02-harvest-poster.jpg",
+    media: "https://videos.pexels.com/video-files/8844919/8844919-uhd_2732_1440_24fps.mp4",
+    poster: "https://images.pexels.com/photos/9799045/pexels-photo-9799045.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "shelling",
@@ -46,8 +48,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#5d4230",
     ink: "#f4efe7",
-    media: "media/03-shelling.mp4",
-    poster: "media/03-shelling-poster.jpg",
+    media: "https://videos.pexels.com/video-files/6268981/6268981-hd_1080_2048_25fps.mp4",
+    poster: "https://images.pexels.com/videos/6268981/pexels-photo-6268981.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "roasting",
@@ -59,8 +61,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#3d2317",
     ink: "#f2ebe4",
-    media: "media/04-roasting.mp4",
-    poster: "media/04-roasting-poster.jpg",
+    media: "https://videos.pexels.com/video-files/3967260/3967260-uhd_2732_1440_24fps.mp4",
+    poster: "https://images.pexels.com/videos/3967260/pexels-photo-3967260.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "grinding",
@@ -72,8 +74,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#54402e",
     ink: "#f4efe7",
-    media: "media/05-grinding.mp4",
-    poster: "media/05-grinding-poster.jpg",
+    media: "https://videos.pexels.com/video-files/36066747/15295455_1080_1920_24fps.mp4",
+    poster: "https://images.pexels.com/videos/36066747/marikina-metro-manila-palengke-36066747.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "packing",
@@ -85,8 +87,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#6e4512",
     ink: "#f7f1e6",
-    media: "media/06-packing.mp4",
-    poster: "media/06-packing-poster.jpg",
+    media: "https://videos.pexels.com/video-files/4121558/4121558-uhd_2560_1440_25fps.mp4",
+    poster: "https://images.pexels.com/videos/4121558/consumer-couple-food-store-healthy-eating-4121558.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "dispatch",
@@ -98,8 +100,8 @@ export const STAGES: Stage[] = [
     ],
     color: "#2e3440",
     ink: "#eef0f4",
-    media: "media/07-dispatch.mp4",
-    poster: "media/07-dispatch-poster.jpg",
+    media: "https://videos.pexels.com/video-files/4855685/4855685-hd_1920_1080_30fps.mp4",
+    poster: "https://images.pexels.com/videos/4855685/pexels-photo-4855685.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: "finish",
@@ -111,7 +113,7 @@ export const STAGES: Stage[] = [
     ],
     color: "#402a1d",
     ink: "#f4efe7",
-    media: "media/08-finish.mp4",
-    poster: "media/08-finish-poster.jpg",
+    media: "https://videos.pexels.com/video-files/39916195/17020375_1080_1920_50fps.mp4",
+    poster: "https://images.pexels.com/videos/39916195/pexels-photo-39916195.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ];

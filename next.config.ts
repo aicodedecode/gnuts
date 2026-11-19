@@ -1,1 +1,10 @@
-aW1wb3J0IHR5cGUgeyBOZXh0Q29uZmlnIH0gZnJvbSAibmV4dCI7Cgpjb25zdCBuZXh0Q29uZmlnOiBOZXh0Q29uZmlnID0gewogIHRyYW5zcGlsZVBhY2thZ2VzOiBbInRocmVlIl0sCn07CgpleHBvcnQgZGVmYXVsdCBuZXh0Q29uZmlnOwo=
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  transpilePackages: ["three"],
+  output: "export",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
+  images: { unoptimized: true },
+};
+
+export default nextConfig;

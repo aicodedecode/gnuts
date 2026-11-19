@@ -1,1 +1,2 @@
-Q2xpcHMgYW5kIHBvc3RlcnMgZ28gaGVyZS4gU2VlIFJFQURNRS5tZCBtZWRpYSBtYW5pZmVzdC4K
+Clips and posters go here. See README.md media manifest.
+Live site: https://aicodedecode.github.io/gnuts/

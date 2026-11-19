@@ -1,1 +1,27 @@
-ewogICJuYW1lIjogImdudXRzIiwKICAidmVyc2lvbiI6ICIwLjEuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQHJlYWN0LXRocmVlL2RyZWkiOiAiXjEwLjAuMCIsCiAgICAiQHJlYWN0LXRocmVlL2ZpYmVyIjogIl45LjAuMCIsCiAgICAiZ3NhcCI6ICJeMy4xMi41IiwKICAgICJsZW5pcyI6ICJeMS4xLjE4IiwKICAgICJuZXh0IjogIl4xNS41LjAiLAogICAgInJlYWN0IjogIl4xOS4wLjAiLAogICAgInJlYWN0LWRvbSI6ICJeMTkuMC4wIiwKICAgICJ0aHJlZSI6ICJeMC4xNzQuMCIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHR5cGVzL25vZGUiOiAiXjIyLjAuMCIsCiAgICAiQHR5cGVzL3JlYWN0IjogIl4xOS4wLjAiLAogICAgIkB0eXBlcy9yZWFjdC1kb20iOiAiXjE5LjAuMCIsCiAgICAiQHR5cGVzL3RocmVlIjogIl4wLjE3NC4wIiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjYuMCIKICB9Cn0K
+{
+  "name": "gnuts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.18",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.174.0",
+    "typescript": "^5.6.0"
+  }
+}

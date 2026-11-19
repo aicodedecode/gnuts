@@ -1,1 +1,117 @@
-ZXhwb3J0IHR5cGUgU3RhZ2UgPSB7CiAgaWQ6IHN0cmluZzsKICBudW06IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgbGluZXM6IHN0cmluZ1tdOwogIGNvbG9yOiBzdHJpbmc7CiAgaW5rOiBzdHJpbmc7CiAgbWVkaWE6IHN0cmluZzsKICBwb3N0ZXI6IHN0cmluZzsKfTsKCmV4cG9ydCBjb25zdCBTVEFHRVM6IFN0YWdlW10gPSBbCiAgewogICAgaWQ6ICJzb3VyY2luZyIsCiAgICBudW06ICIwMSIsCiAgICBuYW1lOiAiU291cmNpbmciLAogICAgbGluZXM6IFsKICAgICAgIldlIGJ1eSBncm91bmRudXRzIHN0cmFpZ2h0IGZyb20gZmFybXMgYXJvdW5kIE1lZXJ1dCwgVXR0YXIgUHJhZGVzaC4iLAogICAgICAiVmFyaWV0eTogW2NvbmZpcm0gcmVnaW9uIGFuZCB2YXJpZXR5XS4gU2Vhc29uOiBbbW9udGggcmFuZ2VdLiBGYXJtIGdhdGUgcHJpY2Ugc2V0IHBlciBsb3Q6IFtScy9rZ10uIiwKICAgIF0sCiAgICBjb2xvcjogIiMzYTRkMmUiLAogICAgaW5rOiAiI2YyZjJmNSIsCiAgICBtZWRpYTogIi9tZWRpYS8wMS1zb3VyY2luZy5tcDQiLAogICAgcG9zdGVyOiAiL21lZGlhLzAxLXNvdXJjaW5nLXBvc3Rlci5qcGciLAogIH0sCiAgewogICAgaWQ6ICJoYXJ2ZXN0IiwKICAgIG51bTogIjAyIiwKICAgIG5hbWU6ICJIYXJ2ZXN0IGFuZCBkcnlpbmciLAogICAgbGluZXM6IFsKICAgICAgIlBvZHMgYXJlIGxpZnRlZCwgZHJpZWQgaW4gdGhlIGZpZWxkIGFuZCBtb2lzdHVyZS1jaGVja2VkIGJlZm9yZSB0aGV5IGVudGVyIHRoZSBwbGFudC4iLAogICAgICAiVGFyZ2V0IG1vaXN0dXJlIGF0IGludGFrZTogWzhdJS4gQmF0Y2hlcyByZWplY3RlZCBhdCB0aGUgZ2F0ZTogW2NvdW50XS4iLAogICAgXSwKICAgIGNvbG9yOiAiIzdhNjQzMiIsCiAgICBpbms6ICIjZjZmMmU5IiwKICAgIG1lZGlhOiAiL21lZGlhLzAyLWhhcnZlc3QubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wMi1oYXJ2ZXN0LXBvc3Rlci5qcGciLAogIH0sCiAgewogICAgaWQ6ICJzaGVsbGluZyIsCiAgICBudW06ICIwMyIsCiAgICBuYW1lOiAiU2hlbGxpbmcgYW5kIHNvcnRpbmciLAogICAgbGluZXM6IFsKICAgICAgIlNoZWxscyBzcGxpdCwga2VybmVscyBncmFkZWQgYnkgc2l6ZSBhbmQgcXVhbGl0eS4iLAogICAgICAiR3JhZGVzIHBhY2tlZDogW2JvbGQsIG1lZGl1bSwgY291bnRzXS4gQWZsYXRveGluIGNoZWNrIHBlciBsb3Q6IFtsYWIgb3IgdGVzdCBtZXRob2RdLiIsCiAgICBdLAogICAgY29sb3I6ICIjNWQ0MjMwIiwKICAgIGluazogIiNmNGVmZTciLAogICAgbWVkaWE6ICIvbWVkaWEvMDMtc2hlbGxpbmcubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wMy1zaGVsbGluZy1wb3N0ZXIuanBnIiwKICB9LAogIHsKICAgIGlkOiAicm9hc3RpbmciLAogICAgbnVtOiAiMDQiLAogICAgbmFtZTogIlJvYXN0aW5nIGFuZCBibGFuY2hpbmciLAogICAgbGluZXM6IFsKICAgICAgIkRydW0gcm9hc3RlZCwgc2tpbnMgcmVtb3ZlZC4iLAogICAgICAiUm9hc3QgcHJvZmlsZTogW3RlbXBlcmF0dXJlIGFuZCBtaW51dGVzXS4gU2tpbiByZW1vdmFsIHJhdGU6IFtwZXJjZW50XS4iLAogICAgXSwKICAgIGNvbG9yOiAiIzNkMjMxNyIsCiAgICBpbms6ICIjZjJlYmU0IiwKICAgIG1lZGlhOiAiL21lZGlhLzA0LXJvYXN0aW5nLm1wNCIsCiAgICBwb3N0ZXI6ICIvbWVkaWEvMDQtcm9hc3RpbmctcG9zdGVyLmpwZyIsCiAgfSwKICB7CiAgICBpZDogImdyaW5kaW5nIiwKICAgIG51bTogIjA1IiwKICAgIG5hbWU6ICJHcmluZGluZyIsCiAgICBsaW5lczogWwogICAgICAiUGFzdGUgZmxvd3MgZnJvbSB0aGUgbWlsbC4gQ3JlYW15IGFuZCBjcnVuY2h5LCBub3RoaW5nIGVsc2UgYWRkZWQuIiwKICAgICAgIkdyaW5kIGZpbmVuZXNzOiBbbWljcm9uc10uIEluZ3JlZGllbnRzIGxpc3QgbGVuZ3RoOiBbb25lIGxpbmVdLiIsCiAgICBdLAogICAgY29sb3I6ICIjNTQ0MDJlIiwKICAgIGluazogIiNmNGVmZTciLAogICAgbWVkaWE6ICIvbWVkaWEvMDUtZ3JpbmRpbmcubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wNS1ncmluZGluZy1wb3N0ZXIuanBnIiwKICB9LAogIHsKICAgIGlkOiAicGFja2luZyIsCiAgICBudW06ICIwNiIsCiAgICBuYW1lOiAiRmlsbGluZyBhbmQgcGFja2luZyIsCiAgICBsaW5lczogWwogICAgICAiSmFycyBmaWxsZWQsIHNlYWxlZCwgbGFiZWxsZWQgYW5kIGJveGVkIGF0IHRoZSBNZWVydXQgcGxhbnQuIiwKICAgICAgIkphciBzaXplczogWzI1MGcsIDUwMGcsIDFrZ10uIERhaWx5IGNhcGFjaXR5OiBbdW5pdHNdLiBGU1NBSSBsaWNlbmNlIG5vOiBbbnVtYmVyXS4iLAogICAgXSwKICAgIGNvbG9yOiAiIzZlNDUxMiIsCiAgICBpbms6ICIjZjdmMWU2IiwKICAgIG1lZGlhOiAiL21lZGlhLzA2LXBhY2tpbmcubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wNi1wYWNraW5nLXBvc3Rlci5qcGciLAogIH0sCiAgewogICAgaWQ6ICJkaXNwYXRjaCIsCiAgICBudW06ICIwNyIsCiAgICBuYW1lOiAiRGlzcGF0Y2giLAogICAgbGluZXM6IFsKICAgICAgIlBhbGxldHMgbGVhdmUgdGhlIGZhY3RvcnkuIiwKICAgICAgIkxlYWQgdGltZTogW2RheXNdLiBFeHBvcnQgZG9jdW1lbnRhdGlvbiBoYW5kbGVkIGluLWhvdXNlOiBbQVBFREEgcmVnaXN0cmF0aW9uIGlmIGhlbGRdLiIsCiAgICBdLAogICAgY29sb3I6ICIjMmUzNDQwIiwKICAgIGluazogIiNlZWYwZjQiLAogICAgbWVkaWE6ICIvbWVkaWEvMDctZGlzcGF0Y2gubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wNy1kaXNwYXRjaC1wb3N0ZXIuanBnIiwKICB9LAogIHsKICAgIGlkOiAiZmluaXNoIiwKICAgIG51bTogIjA4IiwKICAgIG5hbWU6ICJUaGUgamFyIiwKICAgIGxpbmVzOiBbCiAgICAgICJPbmUgamFyLiBHcm91bmRudXRzLCBbc2FsdF0gYW5kIHRpbWUuIiwKICAgICAgIlRlbGwgdXMgd2hhdCB5b3UgbmVlZCBhbmQgd2UgcXVvdGUgd2l0aGluIFs0OF0gaG91cnMuIiwKICAgIF0sCiAgICBjb2xvcjogIiM0MDJhMWQiLAogICAgaW5rOiAiI2Y0ZWZlNyIsCiAgICBtZWRpYTogIi9tZWRpYS8wOC1maW5pc2gubXA0IiwKICAgIHBvc3RlcjogIi9tZWRpYS8wOC1maW5pc2gtcG9zdGVyLmpwZyIsCiAgfSwKXTsK
+export type Stage = {
+  id: string;
+  num: string;
+  name: string;
+  lines: string[];
+  color: string;
+  ink: string;
+  media: string;
+  poster: string;
+};
+
+export const STAGES: Stage[] = [
+  {
+    id: "sourcing",
+    num: "01",
+    name: "Sourcing",
+    lines: [
+      "We buy groundnuts straight from farms around Meerut, Uttar Pradesh.",
+      "Variety: [confirm region and variety]. Season: [month range]. Farm gate price set per lot: [Rs/kg].",
+    ],
+    color: "#3a4d2e",
+    ink: "#f2f2f5",
+    media: "media/01-sourcing.mp4",
+    poster: "media/01-sourcing-poster.jpg",
+  },
+  {
+    id: "harvest",
+    num: "02",
+    name: "Harvest and drying",
+    lines: [
+      "Pods are lifted, dried in the field and moisture-checked before they enter the plant.",
+      "Target moisture at intake: [8]%. Batches rejected at the gate: [count].",
+    ],
+    color: "#7a6432",
+    ink: "#f6f2e9",
+    media: "media/02-harvest.mp4",
+    poster: "media/02-harvest-poster.jpg",
+  },
+  {
+    id: "shelling",
+    num: "03",
+    name: "Shelling and sorting",
+    lines: [
+      "Shells split, kernels graded by size and quality.",
+      "Grades packed: [bold, medium, counts]. Aflatoxin check per lot: [lab or test method].",
+    ],
+    color: "#5d4230",
+    ink: "#f4efe7",
+    media: "media/03-shelling.mp4",
+    poster: "media/03-shelling-poster.jpg",
+  },
+  {
+    id: "roasting",
+    num: "04",
+    name: "Roasting and blanching",
+    lines: [
+      "Drum roasted, skins removed.",
+      "Roast profile: [temperature and minutes]. Skin removal rate: [percent].",
+    ],
+    color: "#3d2317",
+    ink: "#f2ebe4",
+    media: "media/04-roasting.mp4",
+    poster: "media/04-roasting-poster.jpg",
+  },
+  {
+    id: "grinding",
+    num: "05",
+    name: "Grinding",
+    lines: [
+      "Paste flows from the mill. Creamy and crunchy, nothing else added.",
+      "Grind fineness: [microns]. Ingredients list length: [one line].",
+    ],
+    color: "#54402e",
+    ink: "#f4efe7",
+    media: "media/05-grinding.mp4",
+    poster: "media/05-grinding-poster.jpg",
+  },
+  {
+    id: "packing",
+    num: "06",
+    name: "Filling and packing",
+    lines: [
+      "Jars filled, sealed, labelled and boxed at the Meerut plant.",
+      "Jar sizes: [250g, 500g, 1kg]. Daily capacity: [units]. FSSAI licence no: [number].",
+    ],
+    color: "#6e4512",
+    ink: "#f7f1e6",
+    media: "media/06-packing.mp4",
+    poster: "media/06-packing-poster.jpg",
+  },
+  {
+    id: "dispatch",
+    num: "07",
+    name: "Dispatch",
+    lines: [
+      "Pallets leave the factory.",
+      "Lead time: [days]. Export documentation handled in-house: [APEDA registration if held].",
+    ],
+    color: "#2e3440",
+    ink: "#eef0f4",
+    media: "media/07-dispatch.mp4",
+    poster: "media/07-dispatch-poster.jpg",
+  },
+  {
+    id: "finish",
+    num: "08",
+    name: "The jar",
+    lines: [
+      "One jar. Groundnuts, [salt] and time.",
+      "Tell us what you need and we quote within [48] hours.",
+    ],
+    color: "#402a1d",
+    ink: "#f4efe7",
+    media: "media/08-finish.mp4",
+    poster: "media/08-finish-poster.jpg",
+  },
+];

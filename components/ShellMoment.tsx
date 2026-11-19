@@ -1,1 +1,111 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgQ2FudmFzLCB1c2VGcmFtZSB9IGZyb20gIkByZWFjdC10aHJlZS9maWJlciI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlUmVmIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgZ3NhcCBmcm9tICJnc2FwIjsKaW1wb3J0IHsgU2Nyb2xsVHJpZ2dlciB9IGZyb20gImdzYXAvU2Nyb2xsVHJpZ2dlciI7CmltcG9ydCAqIGFzIFRIUkVFIGZyb20gInRocmVlIjsKCmdzYXAucmVnaXN0ZXJQbHVnaW4oU2Nyb2xsVHJpZ2dlcik7Cgpjb25zdCBFQVNFX1AgPSAocDogbnVtYmVyKSA9PiBwICogcCAqICgzIC0gMiAqIHApOwoKZnVuY3Rpb24gU2hlbGxIYWxmKHsgc2lkZSwgcHJvZ3Jlc3MgfTogeyBzaWRlOiAxIHwgLTE7IHByb2dyZXNzOiBSZWFjdC5NdXRhYmxlUmVmT2JqZWN0PG51bWJlcj4gfSkgewogIGNvbnN0IHJlZiA9IHVzZVJlZjxUSFJFRS5Hcm91cD4obnVsbCk7CgogIHVzZUZyYW1lKCgpID0+IHsKICAgIGlmICghcmVmLmN1cnJlbnQpIHJldHVybjsKICAgIGNvbnN0IHAgPSBFQVNFX1AoTWF0aC5taW4oMSwgTWF0aC5tYXgoMCwgcHJvZ3Jlc3MuY3VycmVudCkpKTsKICAgIC8vIHNwbGl0IGFwYXJ0LCB0aXAgb3V0d2FyZAogICAgcmVmLmN1cnJlbnQucG9zaXRpb24ueCA9IHNpZGUgKiAoMC4xNSArIHAgKiAxLjM1KTsKICAgIHJlZi5jdXJyZW50LnBvc2l0aW9uLnkgPSBwICogMC4zNTsKICAgIHJlZi5jdXJyZW50LnJvdGF0aW9uLnogPSBzaWRlICogcCAqIDAuNTU7CiAgfSk7CgogIHJldHVybiAoCiAgICA8Z3JvdXAgcmVmPXtyZWZ9PgogICAgICB7LyogaGFsZi1wb2Q6IGRvbWUgc2hlbGwgKi99CiAgICAgIDxtZXNoIHJvdGF0aW9uPXtbMCwgMCwgc2lkZSA+IDAgPyAwIDogTWF0aC5QSV19PgogICAgICAgIDxzcGhlcmVHZW9tZXRyeSBhcmdzPXtbMC44NSwgNDgsIDI0LCAwLCBNYXRoLlBJICogMiwgMCwgTWF0aC5QSSAvIDJdfSAvPgogICAgICAgIDxtZXNoU3RhbmRhcmRNYXRlcmlhbCBjb2xvcj0iIzhhNWEzMyIgcm91Z2huZXNzPXswLjg1fSBzaWRlPXtUSFJFRS5Eb3VibGVTaWRlfSAvPgogICAgICA8L21lc2g+CiAgICAgIHsvKiBjb25zdHJpY3RlZCB3YWlzdCBudWIgKi99CiAgICAgIDxtZXNoIHBvc2l0aW9uPXtbc2lkZSAqIDAuNTUsIC0wLjEyLCAwXX0gc2NhbGU9e1swLjUsIDAuMzgsIDAuNDVdfT4KICAgICAgICA8c3BoZXJlR2VvbWV0cnkgYXJncz17WzAuODUsIDI0LCAxNl19IC8+CiAgICAgICAgPG1lc2hTdGFuZGFyZE1hdGVyaWFsIGNvbG9yPSIjN2Q1MDI5IiByb3VnaG5lc3M9ezAuODV9IC8+CiAgICAgIDwvbWVzaD4KICAgIDwvZ3JvdXA+CiAgKTsKfQoKZnVuY3Rpb24gS2VybmVscyh7IHByb2dyZXNzIH06IHsgcHJvZ3Jlc3M6IFJlYWN0Lk11dGFibGVSZWZPYmplY3Q8bnVtYmVyPiB9KSB7CiAgY29uc3QgcmVmID0gdXNlUmVmPFRIUkVFLkdyb3VwPihudWxsKTsKICB1c2VGcmFtZSgoKSA9PiB7CiAgICBpZiAoIXJlZi5jdXJyZW50KSByZXR1cm47CiAgICBjb25zdCBwID0gRUFTRV9QKHByb2dyZXNzLmN1cnJlbnQpOwogICAgY29uc3QgcyA9IE1hdGgubWluKDEsIE1hdGgubWF4KDAsIChwIC0gMC40NSkgLyAwLjU1KSk7CiAgICByZWYuY3VycmVudC5zY2FsZS5zZXRTY2FsYXIoMC4yICsgcyAqIDAuOCk7CiAgICByZWYuY3VycmVudC5yb3RhdGlvbi55ID0gcCAqIDAuNjsKICB9KTsKICBjb25zdCBrZXJuZWwgPSAoeDogbnVtYmVyLCB5OiBudW1iZXIpID0+ICgKICAgIDxtZXNoIGtleT17YCR7eH0tJHt5fWB9IHBvc2l0aW9uPXtbeCwgeSwgMF19IHNjYWxlPXtbMC42MiwgMC45LCAwLjYyXX0+CiAgICAgIDxzcGhlcmVHZW9tZXRyeSBhcmdzPXtbMC4zLCAyNCwgMTZdfSAvPgogICAgICA8bWVzaFN0YW5kYXJkTWF0ZXJpYWwgY29sb3I9IiNkOGE0NjgiIHJvdWdobmVzcz17MC42fSAvPgogICAgPC9tZXNoPgogICk7CiAgcmV0dXJuIDxncm91cCByZWY9e3JlZn0+e2tlcm5lbCgtMC4yOCwgMC4xKX17a2VybmVsKDAuMjgsIDAuMSl9e2tlcm5lbCgwLCAtMC4zMil9PC9ncm91cD47Cn0KCmZ1bmN0aW9uIFJpZyh7IHByb2dyZXNzIH06IHsgcHJvZ3Jlc3M6IFJlYWN0Lk11dGFibGVSZWZPYmplY3Q8bnVtYmVyPiB9KSB7CiAgY29uc3QgZ3JvdXAgPSB1c2VSZWY8VEhSRUUuR3JvdXA+KG51bGwpOwogIHVzZUZyYW1lKChzdGF0ZSkgPT4gewogICAgaWYgKCFncm91cC5jdXJyZW50KSByZXR1cm47CiAgICBncm91cC5jdXJyZW50LnJvdGF0aW9uLnkgKz0gKHN0YXRlLnBvaW50ZXIueCAqIDAuMyAtIGdyb3VwLmN1cnJlbnQucm90YXRpb24ueSkgKiAwLjA0OwogICAgZ3JvdXAuY3VycmVudC5yb3RhdGlvbi54ICs9ICgtc3RhdGUucG9pbnRlci55ICogMC4yIC0gZ3JvdXAuY3VycmVudC5yb3RhdGlvbi54KSAqIDAuMDQ7CiAgfSk7CiAgcmV0dXJuICgKICAgIDxncm91cCByZWY9e2dyb3VwfT4KICAgICAgPFNoZWxsSGFsZiBzaWRlPXstMX0gcHJvZ3Jlc3M9e3Byb2dyZXNzfSAvPgogICAgICA8U2hlbGxIYWxmIHNpZGU9ezF9IHByb2dyZXNzPXtwcm9ncmVzc30gLz4KICAgICAgPEtlcm5lbHMgcHJvZ3Jlc3M9e3Byb2dyZXNzfSAvPgogICAgPC9ncm91cD4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaGVsbE1vbWVudCgpIHsKICBjb25zdCBwcm9ncmVzcyA9IHVzZVJlZigwKTsKICBjb25zdCBzZWN0aW9uUmVmID0gdXNlUmVmPEhUTUxFbGVtZW50PihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICh3aW5kb3cubWF0Y2hNZWRpYSgiKHByZWZlcnMtcmVkdWNlZC1tb3Rpb246IHJlZHVjZSkiKS5tYXRjaGVzKSB7CiAgICAgIHByb2dyZXNzLmN1cnJlbnQgPSAxOyAvLyBzaG93IHRoZSBvcGVuZWQgc2hlbGwgc3RhdGljYWxseQogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBzdCA9IFNjcm9sbFRyaWdnZXIuY3JlYXRlKHsKICAgICAgdHJpZ2dlcjogc2VjdGlvblJlZi5jdXJyZW50LAogICAgICBzdGFydDogInRvcCB0b3AiLAogICAgICBlbmQ6ICIrPTEyMCUiLAogICAgICBwaW46IHRydWUsCiAgICAgIHNjcnViOiB0cnVlLAogICAgICBvblVwZGF0ZTogKHNlbGYpID0+IHsgcHJvZ3Jlc3MuY3VycmVudCA9IHNlbGYucHJvZ3Jlc3M7IH0sCiAgICB9KTsKICAgIHJldHVybiAoKSA9PiB7IHN0LmtpbGwoKTsgfTsKICB9LCBbXSk7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiByZWY9e3NlY3Rpb25SZWZ9IGNsYXNzTmFtZT0ic2hlbGwtc3RhZ2UiIGlkPSJzdGFnZS1zaGVsbGluZy1tb21lbnQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hlbGwtY2FudmFzIj4KICAgICAgICA8Q2FudmFzIGRwcj17WzEsIDEuNl19IGNhbWVyYT17eyBwb3NpdGlvbjogWzAsIDAsIDQuMl0sIGZvdjogNDAgfX0gZ2w9e3sgYWxwaGE6IHRydWUsIGFudGlhbGlhczogdHJ1ZSB9fT4KICAgICAgICAgIDxhbWJpZW50TGlnaHQgaW50ZW5zaXR5PXswLjd9IC8+CiAgICAgICAgICA8ZGlyZWN0aW9uYWxMaWdodCBwb3NpdGlvbj17WzIsIDMsIDRdfSBpbnRlbnNpdHk9ezEuNH0gY29sb3I9IiNmZmU5Y2YiIC8+CiAgICAgICAgICA8ZGlyZWN0aW9uYWxMaWdodCBwb3NpdGlvbj17Wy0zLCAtMiwgLTJdfSBpbnRlbnNpdHk9ezAuNX0gY29sb3I9IiNjOGI5YTYiIC8+CiAgICAgICAgICA8UmlnIHByb2dyZXNzPXtwcm9ncmVzc30gLz4KICAgICAgICA8L0NhbnZhcz4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaGVsbC1jb3B5Ij4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJzdGFnZS1uYW1lIj5UaGUgc3BsaXQ8L2gyPgogICAgICAgIDxwIGNsYXNzTmFtZT0ic2hlbGwtaGludCI+S2VlcCBzY3JvbGxpbmc8L3A+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K
+"use client";
+
+import { Canvas, useFrame } from "@react-three/fiber";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import * as THREE from "three";
+
+gsap.registerPlugin(ScrollTrigger);
+
+const EASE_P = (p: number) => p * p * (3 - 2 * p);
+
+function ShellHalf({ side, progress }: { side: 1 | -1; progress: React.MutableRefObject<number> }) {
+  const ref = useRef<THREE.Group>(null);
+
+  useFrame(() => {
+    if (!ref.current) return;
+    const p = EASE_P(Math.min(1, Math.max(0, progress.current)));
+    // split apart, tip outward
+    ref.current.position.x = side * (0.15 + p * 1.35);
+    ref.current.position.y = p * 0.35;
+    ref.current.rotation.z = side * p * 0.55;
+  });
+
+  return (
+    <group ref={ref}>
+      {/* half-pod: dome shell */}
+      <mesh rotation={[0, 0, side > 0 ? 0 : Math.PI]}>
+        <sphereGeometry args={[0.85, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2]} />
+        <meshStandardMaterial color="#8a5a33" roughness={0.85} side={THREE.DoubleSide} />
+      </mesh>
+      {/* constricted waist nub */}
+      <mesh position={[side * 0.55, -0.12, 0]} scale={[0.5, 0.38, 0.45]}>
+        <sphereGeometry args={[0.85, 24, 16]} />
+        <meshStandardMaterial color="#7d5029" roughness={0.85} />
+      </mesh>
+    </group>
+  );
+}
+
+function Kernels({ progress }: { progress: React.MutableRefObject<number> }) {
+  const ref = useRef<THREE.Group>(null);
+  useFrame(() => {
+    if (!ref.current) return;
+    const p = EASE_P(progress.current);
+    const s = Math.min(1, Math.max(0, (p - 0.45) / 0.55));
+    ref.current.scale.setScalar(0.2 + s * 0.8);
+    ref.current.rotation.y = p * 0.6;
+  });
+  const kernel = (x: number, y: number) => (
+    <mesh key={`${x}-${y}`} position={[x, y, 0]} scale={[0.62, 0.9, 0.62]}>
+      <sphereGeometry args={[0.3, 24, 16]} />
+      <meshStandardMaterial color="#d8a468" roughness={0.6} />
+    </mesh>
+  );
+  return <group ref={ref}>{kernel(-0.28, 0.1)}{kernel(0.28, 0.1)}{kernel(0, -0.32)}</group>;
+}
+
+function Rig({ progress }: { progress: React.MutableRefObject<number> }) {
+  const group = useRef<THREE.Group>(null);
+  useFrame((state) => {
+    if (!group.current) return;
+    group.current.rotation.y += (state.pointer.x * 0.3 - group.current.rotation.y) * 0.04;
+    group.current.rotation.x += (-state.pointer.y * 0.2 - group.current.rotation.x) * 0.04;
+  });
+  return (
+    <group ref={group}>
+      <ShellHalf side={-1} progress={progress} />
+      <ShellHalf side={1} progress={progress} />
+      <Kernels progress={progress} />
+    </group>
+  );
+}
+
+export default function ShellMoment() {
+  const progress = useRef(0);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      progress.current = 1; // show the opened shell statically
+      return;
+    }
+    const st = ScrollTrigger.create({
+      trigger: sectionRef.current,
+      start: "top top",
+      end: "+=120%",
+      pin: true,
+      scrub: true,
+      onUpdate: (self) => { progress.current = self.progress; },
+    });
+    return () => { st.kill(); };
+  }, []);
+
+  return (
+    <section ref={sectionRef} className="shell-stage" id="stage-shelling-moment">
+      <div className="shell-canvas">
+        <Canvas dpr={[1, 1.6]} camera={{ position: [0, 0, 4.2], fov: 40 }} gl={{ alpha: true, antialias: true }}>
+          <ambientLight intensity={0.7} />
+          <directionalLight position={[2, 3, 4]} intensity={1.4} color="#ffe9cf" />
+          <directionalLight position={[-3, -2, -2]} intensity={0.5} color="#c8b9a6" />
+          <Rig progress={progress} />
+        </Canvas>
+      </div>
+      <div className="shell-copy">
+        <h2 className="stage-name">The split</h2>
+        <p className="shell-hint">Keep scrolling</p>
+      </div>
+    </section>
+  );
+}

@@ -1,1 +1,5 @@
-aW1wb3J0IEV4cGVyaWVuY2UgZnJvbSAiQC9jb21wb25lbnRzL0V4cGVyaWVuY2UiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHsKICByZXR1cm4gPEV4cGVyaWVuY2UgLz47Cn0K
+import Experience from "@/components/Experience";
+
+export default function Home() {
+  return <Experience />;
+}

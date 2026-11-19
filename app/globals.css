@@ -130,6 +130,7 @@ body {
 
 .finish-stage {
   min-height: 100vh;
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   align-items: end;

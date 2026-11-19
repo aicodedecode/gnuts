@@ -1,1 +1,43 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBRdW90ZUZvcm0oKSB7CiAgY29uc3QgW3N0YXRlLCBzZXRTdGF0ZV0gPSB1c2VTdGF0ZTwiaWRsZSIgfCAic2VuZGluZyIgfCAic2VudCIgfCAiZXJyb3IiPigiaWRsZSIpOwoKICBhc3luYyBmdW5jdGlvbiBvblN1Ym1pdChlOiBSZWFjdC5Gb3JtRXZlbnQ8SFRNTEZvcm1FbGVtZW50PikgewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgY29uc3QgZm9ybSA9IGUuY3VycmVudFRhcmdldDsKICAgIGNvbnN0IGRhdGEgPSBPYmplY3QuZnJvbUVudHJpZXMobmV3IEZvcm1EYXRhKGZvcm0pLmVudHJpZXMoKSk7CiAgICBzZXRTdGF0ZSgic2VuZGluZyIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goIi9hcGkvcXVvdGUiLCB7CiAgICAgICAgbWV0aG9kOiAiUE9TVCIsCiAgICAgICAgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0sCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoZGF0YSksCiAgICAgIH0pOwogICAgICBpZiAoIXJlcy5vaykgdGhyb3cgbmV3IEVycm9yKCJiYWQgc3RhdHVzIik7CiAgICAgIHNldFN0YXRlKCJzZW50Iik7CiAgICAgIGZvcm0ucmVzZXQoKTsKICAgIH0gY2F0Y2ggewogICAgICBzZXRTdGF0ZSgiZXJyb3IiKTsKICAgIH0KICB9CgogIGlmIChzdGF0ZSA9PT0gInNlbnQiKSB7CiAgICByZXR1cm4gKAogICAgICA8Zm9ybSBjbGFzc05hbWU9InF1b3RlIj4KICAgICAgICA8aDM+UmVxdWVzdCBhIHF1b3RlPC9oMz4KICAgICAgICA8cCBjbGFzc05hbWU9InNlbnQiPlJlY2VpdmVkLiBXZSByZXBseSB3aXRoaW4gWzQ4XSBob3VycyB3aXRoIHByaWNpbmcgZm9yIHlvdXIgdm9sdW1lLjwvcD4KICAgICAgPC9mb3JtPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8Zm9ybSBjbGFzc05hbWU9InF1b3RlIiBvblN1Ym1pdD17b25TdWJtaXR9PgogICAgICA8aDM+UmVxdWVzdCBhIHF1b3RlPC9oMz4KICAgICAgPGxhYmVsPk5hbWU8aW5wdXQgbmFtZT0ibmFtZSIgcmVxdWlyZWQgLz48L2xhYmVsPgogICAgICA8bGFiZWw+Q29tcGFueTxpbnB1dCBuYW1lPSJjb21wYW55IiByZXF1aXJlZCAvPjwvbGFiZWw+CiAgICAgIDxsYWJlbD5Xb3JrIGVtYWlsPGlucHV0IG5hbWU9ImVtYWlsIiB0eXBlPSJlbWFpbCIgcmVxdWlyZWQgLz48L2xhYmVsPgogICAgICA8bGFiZWw+UHJvZHVjdAogICAgICAgIDxzZWxlY3QgbmFtZT0icHJvZHVjdCIgZGVmYXVsdFZhbHVlPSJDcmVhbXkgcGVhbnV0IGJ1dHRlciI+CiAgICAgICAgICA8b3B0aW9uPkNyZWFteSBwZWFudXQgYnV0dGVyPC9vcHRpb24+CiAgICAgICAgICA8b3B0aW9uPkNydW5jaHkgcGVhbnV0IGJ1dHRlcjwvb3B0aW9uPgogICAgICAgICAgPG9wdGlvbj5SYXcgLyBncmFkZWQga2VybmVsczwvb3B0aW9uPgogICAgICAgIDwvc2VsZWN0PgogICAgICA8L2xhYmVsPgogICAgICA8bGFiZWw+Vm9sdW1lIHBlciBtb250aDxpbnB1dCBuYW1lPSJ2b2x1bWUiIHBsYWNlaG9sZGVyPSJbdW5pdHMgb3IgdG9ubmVzXSIgLz48L2xhYmVsPgogICAgICA8bGFiZWw+Tm90ZXM8dGV4dGFyZWEgbmFtZT0ibm90ZXMiIHBsYWNlaG9sZGVyPSJEZXN0aW5hdGlvbiBtYXJrZXQsIGxhYmVsbGluZywgc2FtcGxlcyIgLz48L2xhYmVsPgogICAgICA8YnV0dG9uIHR5cGU9InN1Ym1pdCIgZGlzYWJsZWQ9e3N0YXRlID09PSAic2VuZGluZyJ9PgogICAgICAgIHtzdGF0ZSA9PT0gInNlbmRpbmciID8gIlNlbmRpbmciIDogIlNlbmQgcmVxdWVzdCJ9CiAgICAgIDwvYnV0dG9uPgogICAgICB7c3RhdGUgPT09ICJlcnJvciIgJiYgPHAgY2xhc3NOYW1lPSJzZW50Ij5EaWQgbm90IGdvIHRocm91Z2guIFRyeSBhZ2FpbiBvciB3cml0ZSB0byBbc2FsZXNAZ251dHMuaW5dLjwvcD59CiAgICA8L2Zvcm0+CiAgKTsKfQo=
+"use client";
+import { useState } from "react";
+
+export default function QuoteForm() {
+  const [sent, setSent] = useState(false);
+
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(e.currentTarget).entries());
+    const body = `Name: ${d.name}\nCompany: ${d.company}\nEmail: ${d.email}\nProduct: ${d.product}\nVolume: ${d.volume}\nNotes: ${d.notes}`;
+    const url = `mailto:sales@gnuts.in?subject=${encodeURIComponent("Gnuts quote request")}&body=${encodeURIComponent(body)}`;
+    window.location.href = url;
+    setSent(true);
+  }
+
+  const input =
+    "w-full rounded-md border border-white/20 bg-white/5 px-4 py-3 text-[15px] text-white placeholder-white/40 outline-none focus:border-[#e8c46b]";
+  return (
+    <form onSubmit={onSubmit} className="mx-auto flex w-full max-w-xl flex-col gap-3">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <input name="name" required placeholder="Name" className={input} />
+        <input name="company" required placeholder="Company" className={input} />
+      </div>
+      <input name="email" type="email" required placeholder="Email" className={input} />
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <input name="product" placeholder="Product (creamy / crunchy / raw kernels)" className={input} />
+        <input name="volume" placeholder="Volume per month" className={input} />
+      </div>
+      <textarea name="notes" rows={3} placeholder="Destination market, labelling, samples" className={input} />
+      <button
+        type="submit"
+        className="mt-2 rounded-md bg-[#e8c46b] px-6 py-3 text-[15px] font-semibold text-[#2b2410] transition hover:bg-[#f2d489]"
+      >
+        Request a quote
+      </button>
+      {sent && (
+        <p className="text-sm text-white/70">
+          Opening your email client. Or write to us directly at sales@gnuts.in.
+        </p>
+      )}
+    </form>
+  );
+}

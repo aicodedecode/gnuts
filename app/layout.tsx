@@ -1,1 +1,20 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgeyBBbnRvbiwgSW50ZXIgfSBmcm9tICJuZXh0L2ZvbnQvZ29vZ2xlIjsKaW1wb3J0ICIuL2dsb2JhbHMuY3NzIjsKCmNvbnN0IGFudG9uID0gQW50b24oeyBzdWJzZXRzOiBbImxhdGluIl0sIHdlaWdodDogIjQwMCIsIHZhcmlhYmxlOiAiLS1mb250LXN0YWdlIiB9KTsKY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFsibGF0aW4iXSwgdmFyaWFibGU6ICItLWZvbnQtYm9keSIgfSk7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAiR251dHMsIGdyb3VuZG51dCBhbmQgcGVhbnV0IGJ1dHRlciBmcm9tIE1lZXJ1dCIsCiAgZGVzY3JpcHRpb246CiAgICAiR251dHMgYnV5cyBncm91bmRudXRzIGZyb20gZmFybXMgYXJvdW5kIE1lZXJ1dCwgVXR0YXIgUHJhZGVzaCwgYW5kIHBhY2tzIHBlYW51dCBidXR0ZXIgYXQgaXRzIG93biBwbGFudC4gU2Nyb2xsIHRoZSBmYXJtLXRvLWphciBsaW5lIGFuZCByZXF1ZXN0IGEgcXVvdGUuIiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJlbiIgY2xhc3NOYW1lPXtgJHthbnRvbi52YXJpYWJsZX0gJHtpbnRlci52YXJpYWJsZX1gfT4KICAgICAgPGJvZHk+e2NoaWxkcmVufTwvYm9keT4KICAgIDwvaHRtbD4KICApOwp9Cg==
+import type { Metadata } from "next";
+import { Anton, Inter } from "next/font/google";
+import "./globals.css";
+
+const anton = Anton({ subsets: ["latin"], weight: "400", variable: "--font-stage" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
+
+export const metadata: Metadata = {
+  title: "Gnuts, groundnut and peanut butter from Meerut",
+  description:
+    "Gnuts buys groundnuts from farms around Meerut, Uttar Pradesh, and packs peanut butter at its own plant. Scroll the farm-to-jar line and request a quote.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={`${anton.variable} ${inter.variable}`}>
+      <body>{children}</body>
+    </html>
+  );
+}

@@ -1,1 +1,54 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBnc2FwIGZyb20gImdzYXAiOwppbXBvcnQgeyBTY3JvbGxUcmlnZ2VyIH0gZnJvbSAiZ3NhcC9TY3JvbGxUcmlnZ2VyIjsKCmdzYXAucmVnaXN0ZXJQbHVnaW4oU2Nyb2xsVHJpZ2dlcik7Cgp0eXBlIFByb3BzID0geyBzcmM6IHN0cmluZzsgcG9zdGVyOiBzdHJpbmc7IHNlY3Rpb25JZDogc3RyaW5nIH07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTdGFnZVZpZGVvKHsgc3JjLCBwb3N0ZXIsIHNlY3Rpb25JZCB9OiBQcm9wcykgewogIGNvbnN0IHZpZGVvUmVmID0gdXNlUmVmPEhUTUxWaWRlb0VsZW1lbnQ+KG51bGwpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgdmlkZW8gPSB2aWRlb1JlZi5jdXJyZW50OwogICAgaWYgKCF2aWRlbykgcmV0dXJuOwogICAgaWYgKHdpbmRvdy5tYXRjaE1lZGlhKCIocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSIpLm1hdGNoZXMpIHJldHVybjsKCiAgICBsZXQgbG9hZGVkID0gZmFsc2U7CiAgICBjb25zdCBsb2FkID0gKCkgPT4gewogICAgICBpZiAobG9hZGVkKSByZXR1cm47CiAgICAgIGxvYWRlZCA9IHRydWU7CiAgICAgIHZpZGVvLnNyYyA9IHNyYzsKICAgICAgdmlkZW8ubG9hZCgpOwogICAgfTsKICAgIGNvbnN0IGlvID0gbmV3IEludGVyc2VjdGlvbk9ic2VydmVyKAogICAgICAoZW50cmllcykgPT4gewogICAgICAgIGZvciAoY29uc3QgZSBvZiBlbnRyaWVzKSBpZiAoZS5pc0ludGVyc2VjdGluZykgeyBsb2FkKCk7IGlvLmRpc2Nvbm5lY3QoKTsgfQogICAgICB9LAogICAgICB7IHJvb3RNYXJnaW46ICI2MCUgMHB4IiB9CiAgICApOwogICAgaW8ub2JzZXJ2ZSh2aWRlbyk7CgogICAgY29uc3Qgc3QgPSBTY3JvbGxUcmlnZ2VyLmNyZWF0ZSh7CiAgICAgIHRyaWdnZXI6IGAjI3skc2VjdGlvbklkfWAsCiAgICAgIHN0YXJ0OiAidG9wIGJvdHRvbSIsCiAgICAgIGVuZDogImJvdHRvbSB0b3AiLAogICAgICBvblVwZGF0ZTogKHNlbGYpID0+IHsKICAgICAgICBpZiAodmlkZW8ucmVhZHlTdGF0ZSA+PSAxICYmIHZpZGVvLmR1cmF0aW9uID4gMCkgewogICAgICAgICAgdmlkZW8uY3VycmVudFRpbWUgPSBzZWxmLnByb2dyZXNzICogKHZpZGVvLmR1cmF0aW9uIC0gMC4wMSk7CiAgICAgICAgfQogICAgICB9LAogICAgfSk7CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgaW8uZGlzY29ubmVjdCgpOwogICAgICBzdC5raWxsKCk7CiAgICB9OwogIH0sIFtzcmMsIHBvc3Rlciwgc2VjdGlvbklkXSk7CgogIHJldHVybiAoCiAgICA8dmlkZW8gcmVmPXt2aWRlb1JlZn0gY2xhc3NOYW1lPSJzdGFnZS12aWRlbyIgbXV0ZWQgcGxheXNJbmxpbmUgcHJlbG9hZD0ibm9uZSIgcG9zdGVyPXtwb3N0ZXJ9IC8+CiAgKTsKfQo=
+"use client";
+
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+type Props = { src: string; poster: string; sectionId: string };
+
+export default function StageVideo({ src, poster, sectionId }: Props) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    let loaded = false;
+    const load = () => {
+      if (loaded) return;
+      loaded = true;
+      video.src = src;
+      video.load();
+    };
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) if (e.isIntersecting) { load(); io.disconnect(); }
+      },
+      { rootMargin: "60% 0px" }
+    );
+    io.observe(video);
+
+    const st = ScrollTrigger.create({
+      trigger: `#${sectionId}`,
+      start: "top bottom",
+      end: "bottom top",
+      onUpdate: (self) => {
+        if (video.readyState >= 1 && video.duration > 0) {
+          video.currentTime = self.progress * (video.duration - 0.01);
+        }
+      },
+    });
+
+    return () => {
+      io.disconnect();
+      st.kill();
+    };
+  }, [src, poster, sectionId]);
+
+  return (
+    <video ref={videoRef} className="stage-video" muted playsInline preload="none" poster={poster} />
+  );
+}

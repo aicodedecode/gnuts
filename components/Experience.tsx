@@ -1,1 +1,127 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgZHluYW1pYyBmcm9tICJuZXh0L2R5bmFtaWMiOwppbXBvcnQgZ3NhcCBmcm9tICJnc2FwIjsKaW1wb3J0IHsgU2Nyb2xsVHJpZ2dlciB9IGZyb20gImdzYXAvU2Nyb2xsVHJpZ2dlciI7CmltcG9ydCBTbW9vdGhTY3JvbGwsIHsgcHJlZmVyc1JlZHVjZWRNb3Rpb24gfSBmcm9tICIuL1Ntb290aFNjcm9sbCI7CmltcG9ydCBTdGFnZVZpZGVvIGZyb20gIi4vU3RhZ2VWaWRlbyI7CmltcG9ydCBRdW90ZUZvcm0gZnJvbSAiLi9RdW90ZUZvcm0iOwppbXBvcnQgeyBTVEFHRVMgfSBmcm9tICJAL2xpYi9zdGFnZXMiOwoKZ3NhcC5yZWdpc3RlclBsdWdpbihTY3JvbGxUcmlnZ2VyKTsKCmNvbnN0IFNoZWxsTW9tZW50ID0gZHluYW1pYygoKSA9PiBpbXBvcnQoIi4vU2hlbGxNb21lbnQiKSwgeyBzc3I6IGZhbHNlIH0pOwpjb25zdCBKYXJTY2VuZSA9IGR5bmFtaWMoKCkgPT4gaW1wb3J0KCIuL0phclNjZW5lIiksIHsgc3NyOiBmYWxzZSB9KTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEV4cGVyaWVuY2UoKSB7CiAgY29uc3QgW2FjdGl2ZSwgc2V0QWN0aXZlXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IHJvb3QgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQ+KG51bGwpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgcmVkdWNlZCA9IHByZWZlcnNSZWR1Y2VkTW90aW9uKCk7CiAgICBjb25zdCBjdHggPSBnc2FwLmNvbnRleHQoKCkgPT4gewogICAgICAvLyBiYWNrZ3JvdW5kIHNoaWZ0cyB0byBlYWNoIHN0YWdlIGNvbG91cgogICAgICBTVEFHRVMuZm9yRWFjaCgocywgaSkgPT4gewogICAgICAgIFNjcm9sbFRyaWdnZXIuY3JlYXRlKHsKICAgICAgICAgIHRyaWdnZXI6IGAjc3RhZ2UtJHtzLmlkfWAsCiAgICAgICAgICBzdGFydDogInRvcCA1NSUiLAogICAgICAgICAgZW5kOiAiYm90dG9tIDU1JSIsCiAgICAgICAgICBvblRvZ2dsZTogKHNlbGYpID0+IHsKICAgICAgICAgICAgaWYgKHNlbGYuaXNBY3RpdmUpIHsKICAgICAgICAgICAgICBzZXRBY3RpdmUoaSk7CiAgICAgICAgICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCItLXN0YWdlLWJnIiwgcy5jb2xvcik7CiAgICAgICAgICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCItLXN0YWdlLWluayIsIHMuaW5rKTsKICAgICAgICAgICAgICBkb2N1bWVudC5ib2R5LnN0eWxlLmJhY2tncm91bmQgPSByZWR1Y2VkID8gcy5jb2xvciA6ICJ2YXIoLS1zdGFnZS1iZykiOwogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGlmIChyZWR1Y2VkKSByZXR1cm47IC8vIGtlZXAgZXZlcnl0aGluZyB2aXNpYmxlIGFuZCBzdGlsbAoKICAgICAgZ3NhcC51dGlscy50b0FycmF5PEhUTUxFbGVtZW50PigiLnJldmVhbCIpLmZvckVhY2goKGVsKSA9PiB7CiAgICAgICAgZ3NhcC5mcm9tKGVsLCB7CiAgICAgICAgICBvcGFjaXR5OiAwLAogICAgICAgICAgeTogNDgsCiAgICAgICAgICBkdXJhdGlvbjogMC45LAogICAgICAgICAgZWFzZTogInBvd2VyMy5vdXQiLAogICAgICAgICAgc2Nyb2xsVHJpZ2dlcjogeyB0cmlnZ2VyOiBlbCwgc3RhcnQ6ICJ0b3AgODUlIiwgdG9nZ2xlQWN0aW9uczogInBsYXkgbm9uZSBub25lIHJldmVyc2UiIH0sCiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSwgcm9vdCk7CiAgICByZXR1cm4gKCkgPT4gY3R4LnJldmVydCgpOwogIH0sIFtdKTsKCiAgY29uc3Qgc3RhZ2UgPSBTVEFHRVNbYWN0aXZlXTsKCiAgcmV0dXJuICgKICAgIDxTbW9vdGhTY3JvbGw+CiAgICAgIDxkaXYgcmVmPXtyb290fT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3RhZ2UtaW5kZXgiIGFyaWEtbGl2ZT0icG9saXRlIj4KICAgICAgICAgIHtzdGFnZS5udW19IC8ge3N0YWdlLm5hbWV9CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJyYW5kIj5HTlVUUzwvZGl2PgoKICAgICAgICB7U1RBR0VTLm1hcCgocywgaSkgPT4gewogICAgICAgICAgaWYgKHMuaWQgPT09ICJzaGVsbGluZyIpIHsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8ZGl2IGtleT17cy5pZH0+CiAgICAgICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InN0YWdlIiBpZD17YHN0YWdlLSR7cy5pZH1gfT4KICAgICAgICAgICAgICAgICAgPFN0YWdlVmlkZW8gc3JjPXtzLm1lZGlhfSBwb3N0ZXI9e3MucG9zdGVyfSBzZWN0aW9uSWQ9e2BzdGFnZS0ke3MuaWR9YH0gLz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InN0YWdlLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InN0YWdlLW5hbWUgcmV2ZWFsIj57cy5uYW1lfTwvaDI+CiAgICAgICAgICAgICAgICAgICAge3MubGluZXMubWFwKChsLCBrKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8cCBrZXk9e2t9IGNsYXNzTmFtZT0icmV2ZWFsIj57bH08L3A+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgICAgICAgey8qIHRoZSBtZW1vcmFibGUgbW9tZW50OiB0aGUgc2hlbGwgc3BsaXRzIGFzIHlvdSBzY3JvbGwgKi99CiAgICAgICAgICAgICAgICA8U2hlbGxNb21lbnQgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0KICAgICAgICAgIGlmIChzLmlkID09PSAiZmluaXNoIikgewogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iZmluaXNoLXN0YWdlIiBpZD17YHN0YWdlLSR7cy5pZH1gfSBrZXk9e3MuaWR9PgogICAgICAgICAgICAgICAgPFN0YWdlVmlkZW8gc3JjPXtzLm1lZGlhfSBwb3N0ZXI9e3MucG9zdGVyfSBzZWN0aW9uSWQ9e2BzdGFnZS0ke3MuaWR9YH0gLz4KICAgICAgICAgICAgICAgIDxKYXJTY2VuZSAvPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpbmlzaC1pbm5lciI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzdGFnZS1jb3B5Ij4KICAgICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJzdGFnZS1uYW1lIHJldmVhbCI+e3MubmFtZX08L2gyPgogICAgICAgICAgICAgICAgICAgIHtzLmxpbmVzLm1hcCgobCwgaykgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPHAga2V5PXtrfSBjbGFzc05hbWU9InJldmVhbCI+e2x9PC9wPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPFF1b3RlRm9ybSAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgICApOwogICAgICAgICAgfQogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzdGFnZSIgaWQ9e2BzdGFnZS0ke3MuaWR9YH0ga2V5PXtzLmlkfT4KICAgICAgICAgICAgICA8U3RhZ2VWaWRlbyBzcmM9e3MubWVkaWF9IHBvc3Rlcj17cy5wb3N0ZXJ9IHNlY3Rpb25JZD17YHN0YWdlLSR7cy5pZH1gfSAvPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzdGFnZS1jb3B5Ij4KICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InN0YWdlLW5hbWUgcmV2ZWFsIj57cy5uYW1lfTwvaDI+CiAgICAgICAgICAgICAgICB7cy5saW5lcy5tYXAoKGwsIGspID0+ICgKICAgICAgICAgICAgICAgICAgPHAga2V5PXtrfSBjbGFzc05hbWU9InJldmVhbCI+e2x9PC9wPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICAgICk7CiAgICAgICAgfSl9CgogICAgICAgIDxub3NjcmlwdD4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogIjI0cHggNnZ3IiB9fT4KICAgICAgICAgICAgPGgyPkdudXRzLCBNZWVydXQsIFV0dGFyIFByYWRlc2g8L2gyPgogICAgICAgICAgICA8cD4KICAgICAgICAgICAgICBHcm91bmRudXQgYW5kIHBlYW51dCBidXR0ZXIgcHJvZHVjZXIuIEZhcm0gc291cmNpbmcgYXJvdW5kIE1lZXJ1dCwgaW4taG91c2Ugc2hlbGxpbmcsCiAgICAgICAgICAgICAgcm9hc3RpbmcsIGdyaW5kaW5nIGFuZCBwYWNraW5nLCBkaXNwYXRjaCB0byBkb21lc3RpYyBhbmQgZXhwb3J0IGJ1eWVycy4gUmVxdWVzdCBhIHF1b3RlOgogICAgICAgICAgICAgIFtzYWxlc0BnbnV0cy5pbl0uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvbm9zY3JpcHQ+CiAgICAgIDwvZGl2PgogICAgPC9TbW9vdGhTY3JvbGw+CiAgKTsKfQo=
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SmoothScroll, { prefersReducedMotion } from "./SmoothScroll";
+import StageVideo from "./StageVideo";
+import QuoteForm from "./QuoteForm";
+import { STAGES } from "@/lib/stages";
+
+gsap.registerPlugin(ScrollTrigger);
+
+const ShellMoment = dynamic(() => import("./ShellMoment"), { ssr: false });
+const JarScene = dynamic(() => import("./JarScene"), { ssr: false });
+
+export default function Experience() {
+  const [active, setActive] = useState(0);
+  const root = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const reduced = prefersReducedMotion();
+    const ctx = gsap.context(() => {
+      // background shifts to each stage colour
+      STAGES.forEach((s, i) => {
+        ScrollTrigger.create({
+          trigger: `#stage-${s.id}`,
+          start: "top 55%",
+          end: "bottom 55%",
+          onToggle: (self) => {
+            if (self.isActive) {
+              setActive(i);
+              document.documentElement.style.setProperty("--stage-bg", s.color);
+              document.documentElement.style.setProperty("--stage-ink", s.ink);
+              document.body.style.background = reduced ? s.color : "var(--stage-bg)";
+            }
+          },
+        });
+      });
+
+      if (reduced) return; // keep everything visible and still
+
+      gsap.utils.toArray<HTMLElement>(".reveal").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          y: 48,
+          duration: 0.9,
+          ease: "power3.out",
+          scrollTrigger: { trigger: el, start: "top 85%", toggleActions: "play none none reverse" },
+        });
+      });
+    }, root);
+    return () => ctx.revert();
+  }, []);
+
+  const stage = STAGES[active];
+
+  return (
+    <SmoothScroll>
+      <div ref={root}>
+        <div className="stage-index" aria-live="polite">
+          {stage.num} / {stage.name}
+        </div>
+        <div className="brand">GNUTS</div>
+
+        {STAGES.map((s, i) => {
+          if (s.id === "shelling") {
+            return (
+              <div key={s.id}>
+                <section className="stage" id={`stage-${s.id}`}>
+                  <StageVideo src={s.media} poster={s.poster} sectionId={`stage-${s.id}`} />
+                  <div className="stage-copy">
+                    <h2 className="stage-name reveal">{s.name}</h2>
+                    {s.lines.map((l, k) => (
+                      <p key={k} className="reveal">{l}</p>
+                    ))}
+                  </div>
+                </section>
+                {/* the memorable moment: the shell splits as you scroll */}
+                <ShellMoment />
+              </div>
+            );
+          }
+          if (s.id === "finish") {
+            return (
+              <section className="finish-stage" id={`stage-${s.id}`} key={s.id}>
+                <StageVideo src={s.media} poster={s.poster} sectionId={`stage-${s.id}`} />
+                <JarScene />
+                <div className="finish-inner">
+                  <div className="stage-copy">
+                    <h2 className="stage-name reveal">{s.name}</h2>
+                    {s.lines.map((l, k) => (
+                      <p key={k} className="reveal">{l}</p>
+                    ))}
+                  </div>
+                  <QuoteForm />
+                </div>
+              </section>
+            );
+          }
+          return (
+            <section className="stage" id={`stage-${s.id}`} key={s.id}>
+              <StageVideo src={s.media} poster={s.poster} sectionId={`stage-${s.id}`} />
+              <div className="stage-copy">
+                <h2 className="stage-name reveal">{s.name}</h2>
+                {s.lines.map((l, k) => (
+                  <p key={k} className="reveal">{l}</p>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+
+        <noscript>
+          <div style={{ padding: "24px 6vw" }}>
+            <h2>Gnuts, Meerut, Uttar Pradesh</h2>
+            <p>
+              Groundnut and peanut butter producer. Farm sourcing around Meerut, in-house shelling,
+              roasting, grinding and packing, dispatch to domestic and export buyers. Request a quote:
+              [sales@gnuts.in].
+            </p>
+          </div>
+        </noscript>
+      </div>
+    </SmoothScroll>
+  );
+}

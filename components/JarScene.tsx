@@ -1,1 +1,94 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgQ2FudmFzLCB1c2VGcmFtZSB9IGZyb20gIkByZWFjdC10aHJlZS9maWJlciI7CmltcG9ydCB7IHVzZU1lbW8sIHVzZVJlZiB9IGZyb20gInJlYWN0IjsKaW1wb3J0ICogYXMgVEhSRUUgZnJvbSAidGhyZWUiOwoKZnVuY3Rpb24gTGFiZWxUZXh0dXJlKCkgewogIHJldHVybiB1c2VNZW1vKCgpID0+IHsKICAgIGNvbnN0IGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJjYW52YXMiKTsKICAgIGMud2lkdGggPSAxMDI0OyBjLmhlaWdodCA9IDUxMjsKICAgIGNvbnN0IGN0eCA9IGMuZ2V0Q29udGV4dCgiMmQiKSE7CiAgICBjdHguZmlsbFN0eWxlID0gIiNmNGVmZTQiOwogICAgY3R4LmZpbGxSZWN0KDAsIDAsIDEwMjQsIDUxMik7CiAgICBjdHguZmlsbFN0eWxlID0gIiMyZTFkMTAiOwogICAgY3R4LmZpbGxSZWN0KDAsIDQ0LCAxMDI0LCAxMCk7CiAgICBjdHguZmlsbFJlY3QoMCwgNDU4LCAxMDI0LCAxMCk7CiAgICBjdHguZmlsbFN0eWxlID0gIiMyZTFkMTAiOwogICAgY3R4LnRleHRBbGlnbiA9ICJjZW50ZXIiOwogICAgY3R4LmZvbnQgPSAiNzAwIDE5MHB4IHN5c3RlbS11aSwgc2Fucy1zZXJpZiI7CiAgICBjdHguZmlsbFRleHQoIkdOVVRTIiwgNTEyLCAyNTApOwogICAgY3R4LmZvbnQgPSAiNDAwIDU0cHggc3lzdGVtLXVpLCBzYW5zLXNlcmlmIjsKICAgIGN0eC5maWxsVGV4dCgiUEVBTlVUIEJVVFRFUiAgwrcgIE1FRVJVVCIsIDUxMiwgMzQwKTsKICAgIGN0eC5mb250ID0gIjQwMCA0MHB4IHN5c3RlbS11aSwgc2Fucy1zZXJpZiI7CiAgICBjdHguZmlsbFN0eWxlID0gIiM2YjRhMmYiOwogICAgY3R4LmZpbGxUZXh0KCJbMjUwIGddICBORVQgV1QiLCA1MTIsIDQxMik7CiAgICBjb25zdCB0ZXggPSBuZXcgVEhSRUUuQ2FudmFzVGV4dHVyZShjKTsKICAgIHRleC5hbmlzb3Ryb3B5ID0gNDsKICAgIHJldHVybiB0ZXg7CiAgfSwgW10pOwp9CgovKioKICogUGxhY2Vob2xkZXIgamFyIGJ1aWx0IGZyb20gcHJpbWl0aXZlcyBzbyB0aGUgcGFnZSB3b3JrcyBiZWZvcmUgYSBHTEIgZXhpc3RzLgogKiBTd2FwIGluIHRoZSByZWFsIGFzc2V0IGJ5IGRyb3BwaW5nIGdudXRzLWphci5nbGIgKHVuZGVyIDUgTUIpIGludG8KICogL3B1YmxpYy9tZWRpYSBhbmQgcmVwbGFjaW5nIHRoZSBtZXNoZXMgd2l0aCBkcmVpJ3MgdXNlR0xURi4KICovCmZ1bmN0aW9uIEphcigpIHsKICBjb25zdCBsYWJlbCA9IExhYmVsVGV4dHVyZSgpOwogIGNvbnN0IGdyb3VwID0gdXNlUmVmPFRIUkVFLkdyb3VwPihudWxsKTsKCiAgdXNlRnJhbWUoKHN0YXRlKSA9PiB7CiAgICBpZiAoIWdyb3VwLmN1cnJlbnQpIHJldHVybjsKICAgIGdyb3VwLmN1cnJlbnQucm90YXRpb24ueSArPSAwLjAwNCArIHN0YXRlLnBvaW50ZXIueCAqIDAuMDAyOwogICAgZ3JvdXAuY3VycmVudC5yb3RhdGlvbi54ICs9ICgtc3RhdGUucG9pbnRlci55ICogMC4xNSAtIGdyb3VwLmN1cnJlbnQucm90YXRpb24ueCkgKiAwLjA0OwogIH0pOwoKICByZXR1cm4gKAogICAgPGdyb3VwIHJlZj17Z3JvdXB9PgogICAgICB7LyogZ2xhc3MgYm9keSAqL30KICAgICAgPG1lc2ggcG9zaXRpb249e1swLCAwLCAwXX0+CiAgICAgICAgPGN5bGluZGVyR2VvbWV0cnkgYXJncz17WzAuNzIsIDAuNzIsIDEuNSwgNDgsIDEsIHRydWVdfSAvPgogICAgICAgIDxtZXNoUGh5c2ljYWxNYXRlcmlhbCB0cmFuc21pc3Npb249ezAuOTJ9IHRoaWNrbmVzcz17MC42fSByb3VnaG5lc3M9ezAuMDh9IGNvbG9yPSIjZTllMmQ0IiB0cmFuc3BhcmVudCBvcGFjaXR5PXswLjU1fSAvPgogICAgICA8L21lc2g+CiAgICAgIHsvKiBnbGFzcyBiYXNlICovfQogICAgICA8bWVzaCBwb3NpdGlvbj17WzAsIC0wLjc1LCAwXX0gcm90YXRpb249e1stTWF0aC5QSSAvIDIsIDAsIDBdfT4KICAgICAgICA8Y2lyY2xlR2VvbWV0cnkgYXJncz17WzAuNzIsIDQ4XX0gLz4KICAgICAgICA8bWVzaFBoeXNpY2FsTWF0ZXJpYWwgdHJhbnNtaXNzaW9uPXswLjl9IHJvdWdobmVzcz17MC4wOH0gY29sb3I9IiNlOWUyZDQiIHRyYW5zcGFyZW50IG9wYWNpdHk9ezAuNX0gLz4KICAgICAgPC9tZXNoPgogICAgICB7LyogcGVhbnV0IGJ1dHRlciBmaWxsICovfQogICAgICA8bWVzaCBwb3NpdGlvbj17WzAsIC0wLjM2LCAwXX0+CiAgICAgICAgPGN5bGluZGVyR2VvbWV0cnkgYXJncz17WzAuNjgsIDAuNjgsIDAuNzgsIDQ4XX0gLz4KICAgICAgICA8bWVzaFN0YW5kYXJkTWF0ZXJpYWwgY29sb3I9IiNhNTcxM2MiIHJvdWdobmVzcz17MC40Mn0gLz4KICAgICAgPC9tZXNoPgogICAgICB7Lyogc3dpcmwgdG9wICovfQogICAgICA8bWVzaCBwb3NpdGlvbj17WzAsIDAuMDQsIDBdfSByb3RhdGlvbj17Wy1NYXRoLlBJIC8gMiwgMCwgMF19PgogICAgICAgIDxjaXJjbGVHZW9tZXRyeSBhcmdzPXtbMC42OCwgNDhdfSAvPgogICAgICAgIDxtZXNoU3RhbmRhcmRNYXRlcmlhbCBjb2xvcj0iI2IwN2E0MSIgcm91Z2huZXNzPXswLjV9IC8+CiAgICAgIDwvbWVzaD4KICAgICAgey8qIGxhYmVsIHdyYXAgKi99CiAgICAgIDxtZXNoIHBvc2l0aW9uPXtbMCwgMC4wMiwgMF19PgogICAgICAgIDxjeWxpbmRlckdlb21ldHJ5IGFyZ3M9e1swLjczNSwgMC43MzUsIDAuNjIsIDQ4LCAxLCB0cnVlXX0gLz4KICAgICAgICA8bWVzaFN0YW5kYXJkTWF0ZXJpYWwgbWFwPXtsYWJlbH0gcm91Z2huZXNzPXswLjg1fSAvPgogICAgICA8L21lc2g+CiAgICAgIHsvKiBsaWQgKi99CiAgICAgIDxtZXNoIHBvc2l0aW9uPXtbMCwgMC44MiwgMF19PgogICAgICAgIDxjeWxpbmRlckdlb21ldHJ5IGFyZ3M9e1swLjc0LCAwLjc0LCAwLjE2LCA0OF19IC8+CiAgICAgICAgPG1lc2hTdGFuZGFyZE1hdGVyaWFsIGNvbG9yPSIjOGE0ZjFkIiByb3VnaG5lc3M9ezAuNH0gbWV0YWxuZXNzPXswLjM1fSAvPgogICAgICA8L21lc2g+CiAgICA8L2dyb3VwPgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEphclNjZW5lKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iamFyLWNhbnZhcyI+CiAgICAgIDxDYW52YXMgZHByPXtbMSwgMS42XX0gY2FtZXJhPXt7IHBvc2l0aW9uOiBbMCwgMC40LCAzLjZdLCBmb3Y6IDM4IH19IGdsPXt7IGFscGhhOiB0cnVlLCBhbnRpYWxpYXM6IHRydWUgfX0+CiAgICAgICAgPGFtYmllbnRMaWdodCBpbnRlbnNpdHk9ezAuNTV9IC8+CiAgICAgICAgPGRpcmVjdGlvbmFsTGlnaHQgcG9zaXRpb249e1szLCA0LCAzXX0gaW50ZW5zaXR5PXsxLjZ9IGNvbG9yPSIjZmZlOWNmIiAvPgogICAgICAgIDxkaXJlY3Rpb25hbExpZ2h0IHBvc2l0aW9uPXtbLTMsIC0xLCAtM119IGludGVuc2l0eT17MC41fSBjb2xvcj0iI2I4YTg4ZiIgLz4KICAgICAgICA8SmFyIC8+CiAgICAgIDwvQ2FudmFzPgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+
+import { Canvas, useFrame } from "@react-three/fiber";
+import { useMemo, useRef } from "react";
+import * as THREE from "three";
+
+function LabelTexture() {
+  return useMemo(() => {
+    const c = document.createElement("canvas");
+    c.width = 1024; c.height = 512;
+    const ctx = c.getContext("2d")!;
+    ctx.fillStyle = "#f4efe4";
+    ctx.fillRect(0, 0, 1024, 512);
+    ctx.fillStyle = "#2e1d10";
+    ctx.fillRect(0, 44, 1024, 10);
+    ctx.fillRect(0, 458, 1024, 10);
+    ctx.fillStyle = "#2e1d10";
+    ctx.textAlign = "center";
+    ctx.font = "700 190px system-ui, sans-serif";
+    ctx.fillText("GNUTS", 512, 250);
+    ctx.font = "400 54px system-ui, sans-serif";
+    ctx.fillText("PEANUT BUTTER  ·  MEERUT", 512, 340);
+    ctx.font = "400 40px system-ui, sans-serif";
+    ctx.fillStyle = "#6b4a2f";
+    ctx.fillText("[250 g]  NET WT", 512, 412);
+    const tex = new THREE.CanvasTexture(c);
+    tex.anisotropy = 4;
+    return tex;
+  }, []);
+}
+
+/**
+ * Placeholder jar built from primitives so the page works before a GLB exists.
+ * Swap in the real asset by dropping gnuts-jar.glb (under 5 MB) into
+ * /public/media and replacing the meshes with drei's useGLTF.
+ */
+function Jar() {
+  const label = LabelTexture();
+  const group = useRef<THREE.Group>(null);
+
+  useFrame((state) => {
+    if (!group.current) return;
+    group.current.rotation.y += 0.004 + state.pointer.x * 0.002;
+    group.current.rotation.x += (-state.pointer.y * 0.15 - group.current.rotation.x) * 0.04;
+  });
+
+  return (
+    <group ref={group}>
+      {/* glass body */}
+      <mesh position={[0, 0, 0]}>
+        <cylinderGeometry args={[0.72, 0.72, 1.5, 48, 1, true]} />
+        <meshPhysicalMaterial transmission={0.92} thickness={0.6} roughness={0.08} color="#e9e2d4" transparent opacity={0.55} />
+      </mesh>
+      {/* glass base */}
+      <mesh position={[0, -0.75, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+        <circleGeometry args={[0.72, 48]} />
+        <meshPhysicalMaterial transmission={0.9} roughness={0.08} color="#e9e2d4" transparent opacity={0.5} />
+      </mesh>
+      {/* peanut butter fill */}
+      <mesh position={[0, -0.36, 0]}>
+        <cylinderGeometry args={[0.68, 0.68, 0.78, 48]} />
+        <meshStandardMaterial color="#a5713c" roughness={0.42} />
+      </mesh>
+      {/* swirl top */}
+      <mesh position={[0, 0.04, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+        <circleGeometry args={[0.68, 48]} />
+        <meshStandardMaterial color="#b07a41" roughness={0.5} />
+      </mesh>
+      {/* label wrap */}
+      <mesh position={[0, 0.02, 0]}>
+        <cylinderGeometry args={[0.735, 0.735, 0.62, 48, 1, true]} />
+        <meshStandardMaterial map={label} roughness={0.85} />
+      </mesh>
+      {/* lid */}
+      <mesh position={[0, 0.82, 0]}>
+        <cylinderGeometry args={[0.74, 0.74, 0.16, 48]} />
+        <meshStandardMaterial color="#8a4f1d" roughness={0.4} metalness={0.35} />
+      </mesh>
+    </group>
+  );
+}
+
+export default function JarScene() {
+  return (
+    <div className="jar-canvas">
+      <Canvas dpr={[1, 1.6]} camera={{ position: [0, 0.4, 3.6], fov: 38 }} gl={{ alpha: true, antialias: true }}>
+        <ambientLight intensity={0.55} />
+        <directionalLight position={[3, 4, 3]} intensity={1.6} color="#ffe9cf" />
+        <directionalLight position={[-3, -1, -3]} intensity={0.5} color="#b8a88f" />
+        <Jar />
+      </Canvas>
+    </div>
+  );
+}
